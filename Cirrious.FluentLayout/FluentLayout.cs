@@ -149,7 +149,7 @@ namespace Cirrious.FluentLayouts.Touch
                 throw new Exception("You cannot set the second item in a layout relation more than once");
         }
 
-        public IEnumerable<NSLayoutConstraint> ToLayoutConstraints()
+        public virtual IEnumerable<NSLayoutConstraint> ToLayoutConstraints()
         {
             yield return NSLayoutConstraint.Create(
                 View,

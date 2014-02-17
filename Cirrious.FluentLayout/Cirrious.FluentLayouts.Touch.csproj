@@ -41,6 +41,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RowSet-WorkInProgress\RowSet.cs" />
     <Compile Include="UIViewAndLayoutAttribute.cs" />
+    <Compile Include="OrientationAwareFluentLayout.cs" />
+    <Compile Include="OrientationAwareLayoutConstraint.cs" />
+    <Compile Include="OrientationAwareFluentLayoutExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
